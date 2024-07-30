@@ -1,0 +1,37 @@
+#question:answer
+
+qna = {
+
+"hi":"hey i am a chatbot",
+
+"how are you":"i am fine",
+
+"what is your name":"my name is Bruno",
+
+"where are you from":"i am from kashipur Uttarakhand",
+
+"how old are you":"i am 3 years old",
+
+"what is your favourite subject":"my favourite subject is natural language processing",
+
+"which branch is best for engineering":"Chemical Engineering branch is best for engineering",
+
+"tell me a joke":"If you do nothing in your life your life is a joke",
+
+"who is your boss":"I like to think of myself as self employed",
+
+"what is AI":"Artificial Intelligence is a brance of enginneering and science",
+
+}
+
+while True:
+
+qs = input()
+
+if(qs == "quit"):
+
+break
+
+else:
+
+print(qna[qs])
